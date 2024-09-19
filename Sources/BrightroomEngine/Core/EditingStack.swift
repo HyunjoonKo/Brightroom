@@ -40,7 +40,7 @@ fileprivate extension MTLDevice {
   func supportsImage(size: CGSize) -> Bool {
 #if DEBUG
     switch MTLGPUFamily.apple1 {
-    case .apple1, .apple2, .apple3, .apple4, .apple5, .apple6, .apple7, .apple8, .common1, .common2, .common3, .mac1, .mac2, .macCatalyst1, .macCatalyst2, .metal3:
+    case .apple1, .apple2, .apple3, .apple4, .apple5, .apple6, .apple7, .apple8, .apple9, .common1, .common2, .common3, .mac1, .mac2, .macCatalyst1, .macCatalyst2, .metal3:
       break;
     @unknown default: //If a warning is triggered here, please check https://developer.apple.com/metal/Metal-Feature-Set-Tables.pdf for a possibly new value in the Maximum 2D texture width and height table.
       break

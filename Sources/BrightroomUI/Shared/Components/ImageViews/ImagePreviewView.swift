@@ -80,7 +80,7 @@ public final class ImagePreviewView: PixelEditorCodeBasedView {
       setLoadingOverlay(factory: {
         LoadingBlurryOverlayView(
           effect: UIBlurEffect(style: .dark),
-          activityIndicatorStyle: .whiteLarge
+          activityIndicatorStyle: .large
         )
       })
     }

@@ -233,7 +233,7 @@ public final class BlurryMaskingView: PixelEditorCodeBasedView, UIScrollViewDele
     
     defaultAppearance: do {
       setLoadingOverlay(factory: {
-        LoadingBlurryOverlayView(effect: UIBlurEffect(style: .dark), activityIndicatorStyle: .whiteLarge)
+          LoadingBlurryOverlayView(effect: UIBlurEffect(style: .dark), activityIndicatorStyle: .large)
       })
     }
   }
